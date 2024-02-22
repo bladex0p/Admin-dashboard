@@ -322,10 +322,13 @@ h2 > a:hover {
 .card {
     background-color: #FFF;
     border-radius: 10px;
-    border-left: 7px solid #E3BD00;
+    border-left: 7px solid #BD9D00;
     -webkit-box-shadow: -2px 3px 9px 0px #000000; 
     box-shadow: -2px 3px 9px 0px #000000;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover {
@@ -388,5 +391,153 @@ h2 > a:hover {
 }
 
 
+/*CARD CONTENTS*/
+
+.card-content {
+    padding: 15px 10px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-content > .icons {
+    align-self: flex-end;
+}
+
+.card-content > .icons > i {
+    padding: 15px 10px;
+}
+
+.card-content > .icons > i:hover {
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: overline;
+}
 
 
+.para {
+    padding: 15px 0px;
+    color: #8A8A8A;
+}
+
+.announcement-content {
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.announcement-para {
+    color: #8A8A8A;
+    font-size: 0.9rem;
+}
+
+.announcement-card-heading > h3 {
+    font-size: 1rem;
+
+}
+
+.announcement-card-content {
+    padding: 15px 0px;
+}
+
+.announcement-card-content:nth-child(2) {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.Trending-card {
+    height: fit-content;
+    padding: 10px;
+}
+
+.trending-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.trending-details > h5 > #username {
+    font-size: 1rem;
+    color: #000000;
+}
+
+#username:hover {
+    text-decoration: underline;
+}
+
+.trending-details {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.trending-details > h2 {
+    font-size: 0.9rem;
+    color: #8A8A8A;
+    font-weight: 100;
+    padding-left: 5px;
+}
+
+#image-t {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    border: 3px solid rgba(0,0,0,0.57);
+}
+
+.image-t {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-image: url('imgs/Gav_a_well-lit_photograph_with_some_pixelisation_of_a_smiling_b_adab42cc-18c6-4323-824d-8b5027e49c6b-1200x692.webp');
+}
+
+#image-t-2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    border: 3px solid rgba(0,0,0,0.57);
+}
+
+.image-t-2 {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-image: url('imgs/frog.jpeg');
+}
+#image-t-3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    border: 3px solid rgba(0,0,0,0.57);
+}
+
+.image-t-3 {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-image: url('imgs/willsmithprofilephoto_cc00ac309a.png');
+}
+#image-t-4 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 5px;
+    border: 3px solid rgba(0,0,0,0.57);
+}
+
+.image-t-4 {
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    background-image: url('imgs/ai-generated-8327716_1280.webp');
+}
