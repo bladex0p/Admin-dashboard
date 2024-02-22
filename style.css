@@ -28,21 +28,21 @@ a:hover {
 }
 
 h3 > a {
-    color: #000000;
+    color: #242424;
 }
 
 h3 > a:hover {
     text-decoration: underline;
-    color: #000000;
+    color: #242424;
 }
 
 h2 > a {
-    color: #000000;
+    color: #242424;
 }
 
 h2 > a:hover {
     text-decoration: underline;
-    color: #000000;
+    color: #242424;
 }
 
 .profile-info > i:hover {
@@ -66,7 +66,7 @@ h2 > a:hover {
     width: 100%;
     height: 100%;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 210px);
 }
 
 .sidebar {
@@ -198,14 +198,15 @@ h2 > a:hover {
     width: 65px;
     border-radius: 50%;
     background-color: yellow;
-    margin: 0px 20px;
+    margin: 5px 20px;
+    border: 3px solid rgba(0,0,0,0.57);
 }
 
 .image {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    background-image: url('imgs/willsmithprofilephoto_cc00ac309a.png');
+    background-image: url('imgs/Gav_a_well-lit_photograph_with_some_pixelisation_of_a_smiling_b_adab42cc-18c6-4323-824d-8b5027e49c6b-1200x692.webp');
 }
 
 #image-2 {
@@ -213,14 +214,15 @@ h2 > a:hover {
     width: 90px;
     border-radius: 50%;
     background-color: yellow;
-    margin: 0px 20px;
+    margin: 5px 20px;
+    border: 3px solid rgba(0,0,0,0.57);
 }
 
 .image-2 {
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    background-image: url('imgs/willsmithprofilephoto_cc00ac309a.png');
+    background-image: url('imgs/Gav_a_well-lit_photograph_with_some_pixelisation_of_a_smiling_b_adab42cc-18c6-4323-824d-8b5027e49c6b-1200x692.webp');
 }
 
 
@@ -256,7 +258,7 @@ h2 > a:hover {
     width: 85px;
     height: 35px;
     border-radius: 10px;
-    border: 1px solid;
+    border: 1px solid black;
     background-color: #3399FF;
     color: #F0F0F0;
     font-weight: bold;
@@ -268,3 +270,123 @@ h2 > a:hover {
     background-color: #2671BD;
     cursor: pointer;
 }
+
+/*MAIN*/
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-1 {
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-2 {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    flex: 1;
+    width: 100%;
+}
+
+.heading > h3 {
+    padding: 23px 35px;
+    width: fit-content;
+}
+
+
+.cards {
+ flex: 10;
+ width: 100%;
+ display: grid;
+ grid-template-columns: repeat(2, 0.45fr);
+ grid-template-rows: repeat(3, 0.4fr);
+ row-gap: 20px;
+ justify-content: center;
+ column-gap: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    border-radius: 10px;
+    border-left: 7px solid #E3BD00;
+    -webkit-box-shadow: -2px 3px 9px 0px #000000; 
+    box-shadow: -2px 3px 9px 0px #000000;
+    cursor: pointer;
+}
+
+.card:hover {
+    -webkit-box-shadow: -2px 3px 9px 2px #000000; 
+    box-shadow: -2px 3px 9px 2px #000000;
+}
+
+.heading-2 {
+    flex: 1;
+    width: 100%;
+}
+
+.heading-2 > h3 {
+    padding: 23px 35px;
+    width: fit-content;
+}
+
+
+.cards-2 {
+   flex: 10;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 0.8fr;
+   grid-template-rows: 2fr 0.3fr 2fr;
+   justify-content: left;
+}
+
+.Announcement-card, .heading-3, .Trending-card {
+    border-radius: 10px;
+}
+
+.Announcement-card {
+    background-color: #FFF;
+    -webkit-box-shadow: -2px 3px 9px 0px #000000; 
+    box-shadow: -2px 3px 9px 0px #000000;
+    cursor: pointer;
+}
+
+.Trending-card {
+    background-color: #FFF;
+    -webkit-box-shadow: -2px 3px 9px 0px #000000; 
+    box-shadow: -2px 3px 9px 0px #000000;
+    cursor: pointer;
+}
+
+.Announcement-card:hover {
+    -webkit-box-shadow: -2px 3px 9px 2px #000000; 
+    box-shadow: -2px 3px 9px 2px #000000;
+}
+
+.Trending-card:hover {
+    -webkit-box-shadow: -2px 3px 9px 2px #000000; 
+    box-shadow: -2px 3px 9px 2px #000000;
+}
+
+.heading-3 > h3 {
+    padding: 15px 35px;
+    padding-top: 40px;
+    width: fit-content;
+}
+
+
+
+
